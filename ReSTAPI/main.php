@@ -13,7 +13,6 @@ if (!defined('ABSPATH')){
 function chft_register_settings() {
   register_setting('chft_settings_group', 'chft_position');
   register_setting('chft_settings_group', 'chft_authtoken');
-  update_option( 'simple_links', '<a href="">Link 1</a>');
 }
 add_action('admin_init', 'chft_register_settings');
 
